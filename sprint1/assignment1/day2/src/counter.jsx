@@ -22,7 +22,7 @@ const Counter = ()=>
     return(
 <>
 
-          <h1>{count}</h1>
+          <h1 style={{color: count%2==0 ? "green":"red"}} >{count}</h1>
           <button onClick={() => handleinc()}>Increment</button>
           <button onClick={() => handledec()}>Decrement</button>
           <button onClick={() => handle()}>Double</button>
