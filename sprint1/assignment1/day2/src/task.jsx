@@ -1,4 +1,5 @@
 import { useState } from "react";
+import TaskItem from "./TodoList";
 
 
 function Task ()
@@ -26,21 +27,20 @@ function Task ()
     return(
         <>
         <div>Tasks</div>
-        <input value={query} onChange={handlequ} placeholder='add details'></input>
-
-        <button onClick={handleAdd}>Add</button>
 
          <div>
              {
                  tasks.map((ele)=>{
                      return(
                          
-                         <h1>{ele.title}</h1>
-
-                     )
-                 })
-             }
+                         <TaskItem title={ele.title} />
+                         )
+                        })
+                    }
          </div>
+                    <input value={query} onChange={handlequ} placeholder='add details'></input>
+            
+                    <button onClick={handleAdd}>Add</button>
 
         </>
     )
