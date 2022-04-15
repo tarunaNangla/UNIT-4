@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import Counter from './counter'
-
+import Task from './task'
 function App() {
   return (
     <div className="App">
@@ -20,6 +20,7 @@ function App() {
         </a>
       </header> */}
       <Counter/>
+      <Task />
     </div>
   );
 }
