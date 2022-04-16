@@ -1,0 +1,33 @@
+.box{
+    border: 1px solid black;
+    width: 600px;
+    margin: auto;
+    background-color: orange;
+    margin-top: 40px;
+   
+}
+
+.box>div{
+    margin-left: 20px;
+}
+
+
+.colo{
+    background-color: black;
+    color: antiquewhite;
+}
+
+
+.boxes{
+    border: 1px solid black;
+    width: 600px;
+    margin: auto;
+    background-color: whitesmoke;
+    margin-top: 40px;
+}
+
+
+
+.boxes>div{
+    margin-left: 20px;
+}
